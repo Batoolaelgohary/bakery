@@ -1,0 +1,941 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Alegreya', serif'Alegreya Sans', sans-serif; 
+}
+p{
+    line-height: 32px;
+}
+
+#home{
+    height: 100vh;
+    background-image: url(images/drew-coffman-1872.jpg);
+}
+
+#home #nav{
+    /* padding:15px 150px; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: rgb(239, 233, 233);
+    background-color: transparent;
+}
+#home #nav #content .content a{
+    color: #fff;
+}
+#home #nav #content .content a:hover{
+    color: #8E7754;
+}
+
+#home .bakeryinfo{
+    text-align: center;
+    color: #fff;
+    padding-top: 200px;
+}
+#home .bakeryinfo p{
+    padding: 10px;
+    font-size: 24px;
+}
+#home .bakeryinfo h1{
+    font-size: 100px;
+}
+#home .bakeryinfo .btn1 , #home .bakeryinfo .btn2{
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 24px;
+}
+#home .bakeryinfo .btn1{
+    background-color: #8E7754;
+    border: none;
+}
+#home .bakeryinfo .btn2{
+    background-color: transparent;
+    border: #fff solid 1px;
+}
+#home .bakeryinfo .btn1:hover , #home .bakeryinfo .btn2:hover{
+    background-color: #fff;
+    color: #000;
+}
+#home .bakeryinfo .btn1 a:hover , #home .bakeryinfo .btn2 a:hover{
+    color: #000;
+}
+#home .bakeryinfo .btn1 a , #home .bakeryinfo .btn2 a{
+    text-decoration-line: none;
+    color: #fff;
+}
+
+#home .bakeryinfo div{
+    margin-top: 100px;
+    margin-left: 765px;
+    height: 50px;
+    width: 25px;
+    border-radius: 10px;
+    border:1px solid black;
+}
+#home .bakeryinfo .btn3{
+    background-color: transparent;
+    border-style: none;
+}
+#home .bakeryinfo .btn3 a{
+    font-weight: 400;
+    text-decoration-line: none;
+    font-size: 32px;
+    color: #000;
+}
+#who-we{
+    padding: 100px 170px;
+}
+#who-we .who{
+    width: 45%;
+    display: inline-block;
+    padding-right: 50px;
+    vertical-align: middle;
+}
+#who-we .who p{
+    padding-block: 20px;
+}
+#who-we .who .img{
+    width: 100%;
+}
+#who-we .who div img{
+    vertical-align: middle;
+} 
+#who-we h2{
+    font-size: 32px;
+}
+#who-we .who .p{
+    display: inline;
+    vertical-align: middle;
+    
+}
+
+#location{
+    background-color: #F8F8F8;
+    padding: 100px 200px;
+}
+#location .location-info{
+    width: 45%;
+    display: inline-block;
+    padding-right:50px;
+    vertical-align: middle;
+}
+#location .location-info h2{
+    padding-bottom: 10px;
+    font-size: 32px;
+}
+#location .location-info p{
+    padding: 10px 0px;
+}
+#location .location-info .location-img{
+    width: 100%;
+}
+#ourbaking{
+    padding: 70px 170px;
+}
+#ourbaking .baking-info{
+    text-align: center;
+}
+#ourbaking .baking-info h2{
+    font-size: 32px;
+}
+#ourbaking .baking-info p{
+    color: #706c6c;
+    padding: 20px;
+}
+
+#ourbaking .baking-menu{
+    width: 30%;
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+#ourbaking .baking-menu h3{
+    padding:20px;
+    font-weight: 100;
+
+}
+#ourbaking .baking-menu p {
+    color: #706c6c ;
+    font-weight: 100;
+    
+}
+#ourbaking .baking-img{
+    width: 100%;
+}
+#contact{
+    background-color: #F8F8F8;
+    padding: 100px 170px;
+    
+}
+#contact .contact-info{
+    width: 45%;
+    display: inline-block;
+}
+#contact .contact-info p{
+    display: inline-block;
+    padding-block: 20px;
+}
+#contact .contact-info h2{
+    font-size: 32px;
+}
+#contact .contact-info h4{
+    padding-block: 20px;
+    font-weight: 100;
+}
+#contact .contact-info h4 ,#contact .contact-info p{
+    color: #716f6b;
+}
+#contact .contact-info .p ,#contact .contact-info div img{
+    vertical-align: middle;
+}
+#footer{
+    background-color: #353330;
+    text-align: center;
+    padding-top: 65px;
+}
+#footer p{
+    color: #B1B1B1;
+    padding: 20px;
+}
+#footer button{
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+ #nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    padding-block: 10px;
+}
+ #nav #logo{
+    width: 15%;
+    display: inline-block;
+}
+ #nav #logo img{
+    width: 100%;
+}
+ #nav #content{
+    width: 80%;
+    float: right;
+    padding-top: 30px;
+    text-align: right;
+    padding-right: 10px;
+}
+ #nav #content .content li{
+    width: 10%;
+    display: inline-block;
+
+}
+ #nav #content .content a{
+    text-decoration-line: none;
+    color:#888888;
+    font-size: 20px;
+    
+}
+#nav #content .content a:hover{
+    color: #000;
+}
+
+#about {
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+}
+#about h2 {
+    padding-top: 50px;
+    font-size: 48px;
+}
+#about p{
+    padding: 25px;
+    font-size: 24px;
+}
+#story{
+    padding: 100px 170px;
+}
+#story .story-info{
+    width: 45%;
+    display: inline-block;
+}
+#story img{
+    width:100%;
+    vertical-align: middle;
+}
+#story .story-info h2{
+    font-size: 32px;
+}
+#story .information{
+    padding-left: 50px;
+    vertical-align: middle;
+}
+#story .story-info hr , #story .story-info p{
+    color: #706c6c;
+    font-size: 18px;
+}
+#story .story-info p{
+    padding-block: 25px;
+}
+#story .story-info hr{
+    width: 45px;
+}
+#why-us{
+    background-color: #F8F8F8;
+    padding: 100px 170px;
+}
+#why-us .why-us-info{
+    text-align: center;
+}
+#why-us .why-us-info h2 {
+    padding: 25px;
+}
+#why-us .why-us-info p{
+    color: #888888;
+}
+#why-us .why-us-details{
+    padding: 50px 10px;
+    width: 30%;
+    display: inline-block;
+}
+#why-us .why-us-details h3{
+    font-weight: 100;
+}
+#why-us .why-us-details p{
+    color: #706c6c;
+    padding-block: 25px;
+}
+#count{
+    background-color: #8E7754;
+    color: #FFF;
+    padding: 70px 170px;
+}
+#count .count-info{
+    width: 20%;
+    display: inline-block;
+    padding-right: 50px;
+    text-align: center;
+}
+#count .count-info h3{
+    font-size: 48px;
+    padding: 25px;
+}
+
+#our-offers{
+    background-image: url(images/drew-coffman-1872.jpg);
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+}
+
+#our-offers p ,#our-offers h2 , #our-offers a{
+    padding: 10px ;
+    font-size: 24px;
+}
+
+#our-offers a{
+    color:#888888;
+    text-decoration-line: none;
+}
+
+#our-offers h2{
+    padding-top: 50px;
+    font-size: 48px;
+}
+
+#our-offers p{
+    display: inline-block;
+}
+#menu{
+    padding: 100px 170px ;
+}
+#menu .menu-item{
+    width: 25%;
+    display: inline-block;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+#menu .menu-item h5{
+    text-align: left;
+    display: inline-block;
+    font-weight: 300;
+    
+}
+#menu .menu-item span{
+    float: right;
+    color: #888888;
+}
+#menu .menu-item hr{
+    width: 300px;
+    height: 1px;
+    background-color:#716f6b;
+    border-width: 0;
+    margin: 10px 0;
+}
+#menu .menu-item p{
+    line-height: 32px;
+    color:#706c6c;
+}
+#contact-us{
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-position: center;
+    height: 25vh;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+}
+
+#contact-us p ,#contact-us h2 ,#contact-us a{
+    padding: 10px;
+    font-size: 24px;
+}
+
+#contact-us a{
+    color:#888888;
+    text-decoration-line: none;
+}
+
+#contact-us h2{
+    padding-top: 50px;
+    font-size: 48px;
+}
+
+#contact-us p{
+    display: inline-block;
+}
+#contact{
+    padding: 100px 170px;
+}
+#contact-form{
+    float: left;
+}
+#contact-form h3{
+    padding-bottom: 20px;
+    margin: 10px;
+    font-size: 28px;
+    font-weight: 200;
+}
+#contact-form input{
+    width: 300px;
+    height: 50px;
+    border:1px solid #e1dfdf;
+    margin: 10px;
+    color: #888888;
+}
+#contact-form  #sub{
+    width: 625px;
+}
+#contact-form textarea{
+    margin: 10px;
+    width: 625px;
+    border: 1px solid #e1dfdf;
+    font-size: 16px;
+    color: #888888;
+}
+#contact-form button{
+    margin: 10px;
+    padding: 20px;
+    color: #fff;
+    background-color: #8E7754;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 750;
+}
+#contact-form button:hover{
+    background-color: #333333;
+}
+
+#contact-info .contact-info{
+    width:30%;
+    float: left;
+    font-weight: 100;
+    margin-left: 100px;
+}
+#contact-info .contact-info h2{
+    font-weight: 400;
+    color: #000;
+}
+#contact-info .contact-info h4{
+    padding-block: 50px;
+}
+#contact-info .contact-info img{
+    float: left;
+    border-radius: 50%;
+}
+#contact-info .contact-info p{
+    float: left;
+    padding-block:10px ;
+}
+#details-info{
+    background-color: #403D38;
+    padding: 70px 170px ;
+}
+#details-info .details-info{
+    float: left;
+    width: 25%;
+}
+
+#details-info .details-info h4 {
+    color: #fff;
+    
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+#details-info .details-info li ,#details-info .details-info p{
+    color: #888888;
+}
+#details-info .details-info li{
+    list-style: none;
+    padding-block:15px;
+}
+#details-info .details-info span, #details-info .details-info li img{
+    vertical-align: middle;
+}
+
+#details-info .details-info ul hr{
+    background-color:#504d48;
+    height: 1px;
+    border-width: 0;
+    width:250px;
+    
+}
+
+#details-info .details-info p{
+    line-height: 32px;
+    width: 90%;
+    padding-block: 10px;
+}
+#details-info .details-info ul .special{
+    color: #fff;
+}
+
+
+#our-gallery{
+    background-color: #F8F8F8;
+    height: 25vh;
+    background-size: 100% 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#our-gallery p ,#our-gallery h2 {
+    padding: 10px;
+    font-size: 24px;
+    
+}
+
+
+#our-gallery h2{
+    padding-top: 50px;
+    font-size: 48px;
+}
+
+#our-gallery p{
+    color: #888888;
+}
+#gallery{
+    margin:100px;
+    padding-left: 50px;
+}
+#gallery .gallery-img{
+    float: left;
+    width: 30%;
+    padding: 3px;
+}
+#gallery .gallery-img img{
+    width: 100%;
+    height: 400px;
+}
+
+#blog{
+    background-color:#F8F8F8;
+    color:#000;
+    margin-top: 50px;
+    padding:70px 170px;
+}
+
+#blog a{
+    color:#888888;
+    text-decoration-line: none;
+    margin-top: 5px;
+}
+#blog a,#blog p{
+    padding-top: 50px;
+    float: right;
+}
+#blog h2{
+    padding-top: 50px;
+    font-size: 48px;
+    float: left;
+    font-weight: 100;
+}
+
+#blog p{
+    display: inline;
+    padding-left: 5px;
+}
+
+#contact-us a:hover , #blog a:hover , #our-offers a:hover{
+    color: #8E7754;
+}
+#blog-details{
+    padding: 70px 170px;
+}
+#blog-info{
+    float: left;
+    width: 80%;
+}
+#blog-info .post{
+    float: left;
+    width: 45%;
+    margin:10px;
+    border:1px #cdcaca solid;
+}
+
+#blog-info .post img{
+    width: 100%;
+}
+#blog-info .post .post-info{
+    padding: 20px 15px;
+}
+#blog-info .post .post-info h5{
+    padding-block: 10px;
+    font-weight: 100;
+    color: #888888;
+}
+#blog-info .post a{
+    text-decoration: none;
+    color: #000;
+}
+#blog-info .post a:hover{
+    color: #8E7754;
+}
+#blog-info .post .a1{
+    font-size: 24px;
+    font-weight: 100;
+}
+#blog-info .post .a2 ,#blog-info .post p{
+    color: #716f6b;
+}
+#blog-info .post p{
+    padding-bottom: 10px;
+}
+#blog-info .post .a2{
+    font-weight: 100;
+    color: #504d48;
+}
+#blog-info .post  .quote{
+    background-color: #8E7754;
+    color:#fff;
+    padding: 20px;
+    font-size: 20px;
+    
+    
+}
+#blog-info .post  .quote:hover{
+    background-color: #333333;
+}
+
+#blog-info .post  .quote p{
+    color: #fff;
+}
+#blog-info .post  .quote h3{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 900;
+    color: #bdbdbd;
+}
+#blog-titles{
+    float: right;
+    width: 20%;
+}
+#blog-titles input{
+    width: 100%;
+    height: 40px;
+}
+#blog-titles input 
+,#blog-titles hr, #blog-titles h4
+,#blog-titles li{
+    margin-bottom: 20px;
+}
+#blog-titles hr{
+    height: 1px;
+    background-color:#c7c5c0;
+    border-width: 0;
+}
+#blog-titles ul{
+    list-style: none;
+}
+#blog-titles ul a{
+    text-decoration: none;
+    color:#acacac ;
+}
+#blog-titles ul a:hover{
+    color: #8E7754;
+}
+
+#simple{
+    background-color:#F8F8F8;
+    color:#000;
+    margin-top: 30px;
+    padding:30px 170px;
+    text-align: center;
+
+}
+
+#simple p ,#simple h2 , #simple a{
+    padding: 10px ;
+    
+}
+
+#simple a{
+    color:#888888;
+    text-decoration-line: none;
+}
+
+#simple h2{
+    padding-top: 50px;
+    font-size: 48px;
+}
+#simple p{
+    color: #716f6b;
+    font-weight: 100;
+}
+#simple .p{
+    display: inline-block;
+}
+#simple-content{
+    padding: 50px 400px;   
+}
+#simple-content p{
+    padding-top:40px;
+    color: #716f6b;
+    font-weight: 100;
+    font-size: 18px;
+}
+#simple-content img{
+    width: 800px;
+}
+#simple-content hr{
+    height: 1px;
+    background-color:#bfbebd;
+    border-width: 0;
+    margin-block: 10px;
+}
+#philip{
+    padding-inline:  400px;
+}
+#philip .philip-img{
+    float: left;
+    width: 10%;
+    padding-left: 10px;
+}
+#philip .philip-img img{
+    border-radius: 50%;
+
+}
+#philip .philip-info{
+    float: right;
+    width: 80%;
+}
+#philip .philip-info h3{
+    font-weight: 100;
+}
+#philip .philip-info p{
+    color:#716f6b ;
+    font-size: 17px;
+}
+#philip hr{
+    height: 1px;
+    background-color:#bfbebd;
+    border-width: 0;
+    margin-block: 10px;
+}
+.gallerypost{
+    padding: 20px 400px;
+}
+.gallerypost .link{
+    float: right;
+}
+.gallerypost .pervious-link {
+    float: left;
+}
+.gallerypost .link a ,.gallerypost .pervious-link a{
+    text-decoration: none;
+    color: #504d48;
+
+}
+.gallerypost .link a:hover ,.gallerypost .pervious-link a:hover{
+    color: #8E7754;
+}
+.gallerypost .link a .float{
+    float: left;
+}
+.gallerypost hr{
+    height: 1px;
+    background-color:#bfbebd;
+    border-width: 0;
+    margin-block: 10px;
+}
+
+#comment {
+    padding-inline: 400px;
+}
+#comment h4{
+    font-weight: 100;
+    padding-block: 10px;
+    font-size: 20px;
+}
+#comment .comment-details{
+    padding-block: 10px;
+}
+#comment .comment-details .user-img{
+    float: left;
+    padding-bottom: 10px;
+    
+}
+#comment .comment-details .user-img img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+#comment .comment-details .user-comment{
+    float: left;
+    padding-left: 10px;
+    
+}
+#comment .comment-details .user-comment h5 span{
+    font-weight: 100;
+    color: #706c6c;
+}
+#comment .comment-details .reply{
+    float: right;
+}
+#comment .comment-details .reply button{
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+#comment .comment-details .reply button:hover{
+    background-color: #8E7754;
+    color: #fff;
+}
+#comment hr{
+    height: 1px;
+    background-color:#bfbebd;
+    border-width: 0;
+    margin-block: 10px;
+}
+#comment .comment-details form{
+    margin-block: 10px;
+}
+#comment .comment-details form textarea {
+    width: 400px;
+    height: 200px;
+    border: 1px solid #d7d3d0;
+}
+#comment .comment-details form input{
+    border: 1px solid #d2d2d2;
+    margin-block: 10px;
+    width: 389px;
+    height:50px ;
+}
+#comment .comment-details form button{
+    background-color: #8E7754;
+    padding:15px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+#comment .comment-details form button:hover{
+    background-color: #333333;
+}
+
+#gallery-info{
+    padding-inline: 400px;
+}
+#gallery-info .gallery-img img{
+   width: 800px;
+   height: 430px;
+   padding-block: 50px;
+}
+#gallery-info .gallery-info{
+    color:#706c6c;
+}
+#gallery-info .gallery-info p{
+    padding-block: 20px;
+}
+#gallery-info .gallery-info div{
+    width: 80%;
+    margin-left: 50px;
+    padding: 20px 20px;
+    border-left: #acacac 3px solid;
+}
+#gallery-info .gallery-info div q{
+    line-height: 32px;
+    
+}
+#gallery-info .gallery-info h4{
+    color: #000;
+    font-weight: 100;
+}
+#gallery-info .gallery-info p img{
+    float: left;
+    padding-right: 25px;
+    padding-block: 25px;
+}
+#gallery-info hr{
+    height: 1px;
+    background-color:#bfbebd;
+    border-width: 0;
+    margin-block: 10px;
+}
+#gallery-info .btn {
+    text-align: center;
+    padding-bottom: 10px;
+}
+#gallery-info .btn button{
+    padding: 10px 8px;
+    background-color: transparent;
+    border: 1px solid #acacac;
+}
+#gallery-info .btn button:hover{
+    background-color: #8E7754;
+    color: #fff;
+}
+
+#gallery-info .quote{
+    background-color: #8E7754;
+    color:#fff;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 20px;
+}
+#gallery-info .quote:hover{
+    background-color: #333333;
+}
+
+#gallery-info   .quote p{
+    color: #fff;
+    padding-bottom: 10px;
+}
+#gallery-info   .quote h3{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 900;
+    color: #bdbdbd;
+}
+.clear{
+    clear: both;
+}
